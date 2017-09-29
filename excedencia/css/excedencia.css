@@ -474,6 +474,11 @@ column-gap: 4vw;
   -webkit-column-count: 2;
   column-count: 2;
   }
+
+  #graphill
+  {
+    display: none;
+  }
 }
 
 /*---------- COLOR PALLETTE ------------*/
