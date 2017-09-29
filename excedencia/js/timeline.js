@@ -5,7 +5,7 @@ var percentSmooth = 92.63;
 
 var laws = [
   {year: 2007.2, id: "#LeyOrganica", loader: 0},
-  {year: 2012, id: "#PPIINA", loader: 0},
+  /*{year: 2012, id: "#PPIINA", loader: 0},*/
   {year: 2015, id: "#Decreto2015", loader: 0}
 ];
 
