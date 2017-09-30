@@ -368,6 +368,15 @@ section {
   width: 70%;
 }
 
+.peopleIcon {
+  display: block;
+  margin: 0 auto;
+}
+
+#profilesTitle {
+  margin-bottom: 0px;
+}
+
 @media all and (max-width: 900px){
   .profile {
     width: auto;
