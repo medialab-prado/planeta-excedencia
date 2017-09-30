@@ -87,6 +87,19 @@ Panels.prototype.selectPage = function (index)
     this.timer = setTimeout(function(){self.showPanel(self.pages[self.currentPage]["current"]+1)}, parseInt(self.pages[self.currentPage].panels[self.pages[self.currentPage]["current"]].dataset.delay));
   }
 
+  if(this.currentPage == 1)
+  {
+    var properties = {
+     "right": "10px"
+    };
+
+    $('#arrow_right').pulse(properties, {
+      duration : 500,
+      pulses   : 3,
+      interval : 400
+    });
+  }
+
   if(this.currentPage == this.pages.length-1)
   {
     rollCredits();
