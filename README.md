@@ -33,14 +33,8 @@ Nos llama la atención y, al mismo tiempo, nos anima a presentar esta propuesta,
 
 El equipo de Planeta Excedencia queremos contaros nuestro viaje de aprendizaje de estas dos semanas
 
-La convocatoria de proyectos se cerró el 25 de junio y el 27 de junio se publicaron los 8 proyectos seleccionados. La idea inicial del proyecto era:
+La convocatoria de proyectos se cerró el 25 de junio y el 27 de junio se publicaron los 8 proyectos seleccionados. La idea inicial del proyecto era (info en la web de Visualizar'17):
 
-En la web de visualizar:
-
-Planeta excedencia
-
-Promotora: María Llop
-Git: https://github.com/medialab-prado/planeta-excedencia
 En España, hay hombres y mujeres que cuando son padres deciden migrar al planeta de la excedencia por cuidado de hijxs. En ocasiones, es una migración sin retorno al mundo laboral.
 
 Este proyecto quiere visualizar esta realidad y profundizar en ella para analizar cuánto de voluntaria es esta opción como posible forma de conciliación entre la vida laboral y la familiar.
