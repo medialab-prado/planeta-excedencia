@@ -329,6 +329,19 @@ section {
   margin-left: -128px;
 }
 
+/* =========== Quotes ============ */
+
+.quote
+{
+  text-align: center;
+  font-weight: normal;
+  margin-top: 10vh;
+  /*position: absolute;
+  bottom: 10vh;
+  left: 0;
+  width: 50vw;*/
+}
+
 /* =========== Profiles ============ */
 
 .profile {
@@ -367,6 +380,7 @@ section {
 
 .profileContainer {
   width: 70%;
+  margin-top: -50px;
 }
 
 .peopleIcon {
@@ -430,6 +444,18 @@ section {
     -webkit-box-shadow: 3px 0px 14px 2px rgba(56,56,56,1);
     -moz-box-shadow: 3px 0px 14px 2px rgba(56,56,56,1);
     box-shadow: 3px 0px 14px 2px rgba(56,56,56,1);
+  }
+
+  .quote
+  {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10vh;
+    /*position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+    width: 90vw;
+    padding:0px;*/
   }
 }
 

@@ -164,4 +164,28 @@ $(function(){
   });
 
   $('#scrollTip').css({opacity: 0});
+
+
+
+var checkKey = function(e) {
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        // up arrow
+        event.preventDefault();
+        window.scrollBy({ top: -$(window).height(), left: 0, behavior: 'smooth' });
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+        event.preventDefault();
+        window.scrollBy({ top: $(window).height(), left: 0, behavior: 'smooth' });
+    }
+    else if (e.keyCode == '37') {
+       panels.showPanel(panels.pages[panels.currentPage]["current"]-1);
+    }
+    else if (e.keyCode == '39') {
+       panels.showPanel(panels.pages[panels.currentPage]["current"]+1);
+    }
+  }
+  document.onkeydown = checkKey;
 });
